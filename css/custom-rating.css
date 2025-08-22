@@ -1,0 +1,23 @@
+.rating-container {
+    display: inline-block;
+}
+
+.rating-star {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.rating-star.fas {
+    color: #f39c12;
+}
+
+.rating-star.far {
+    color: #ccc;
+}
+
+.rating-stats {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}

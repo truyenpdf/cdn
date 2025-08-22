@@ -1,0 +1,26 @@
+.badge {
+    padding: 0.25em 0.4em;
+    font-size: 85%;
+    font-weight: 700;
+    border-radius: 0.25rem;
+}
+
+.text-purple {
+    color: #6f42c1 !important;
+}
+
+.text-gold {
+    color: #FFD700 !important;
+}
+
+.text-rainbow {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Hover effects */
+.badge:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}

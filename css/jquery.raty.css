@@ -1,0 +1,104 @@
+.jq-ry-container {
+    position: relative;
+    padding: 0 5px;
+    line-height: 0;
+    display: block;
+    cursor: pointer;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    direction: ltr;
+}
+
+.jq-ry-container[readonly="readonly"] {
+    cursor: default;
+}
+
+.jq-ry-container > .jq-ry-group-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group {
+    position: relative;
+    line-height: 0;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group > svg {
+    display: inline-block;
+}
+
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-normal-group {
+    width: 100%;
+}
+
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-rated-group {
+    width: 0;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  font-size: 2em;
+}
+
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.cancel-on-png:before {
+  content: "\f057";
+  color: #c33;
+}
+
+.cancel-off-png:before {
+  content: "\f056";
+  color: #ccc;
+}
+
+.star-on-png:before {
+  content: "\f005";
+  color: #f39c12;
+}
+
+.star-off-png:before {
+  content: "\f006";
+  color: #ccc;
+}
+
+.star-half-png:before {
+  content: "\f089";
+  color: #f39c12;
+}
+
+/* Add these styles to the existing CSS file */
+.stars-container {
+    display: inline-block;
+}
+
+.stars-container i {
+    font-size: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.star-on-png {
+    color: #f39c12;
+}
+
+.star-off-png {
+    color: #ccc;
+}
